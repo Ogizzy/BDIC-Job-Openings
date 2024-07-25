@@ -1,0 +1,164 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #2E3092;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: right;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .job-details {
+            margin-bottom: 20px;
+        }
+
+        .job-details h3 {
+            color: #2E3092;
+        }
+
+        .job-details p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .apply-form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .apply-form h3 {
+            color: #2E3092;
+            margin-bottom: 20px;
+        }
+
+        .apply-form .form-group {
+            margin-bottom: 15px;
+        }
+
+        .apply-form .form-group label {
+            display: block;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .apply-form .form-group input,
+        .apply-form .form-group textarea,
+        .apply-form .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .apply-form .form-group input:focus,
+        .apply-form .form-group textarea:focus,
+        .apply-form .form-group select:focus {
+            border-color: #2E3092;
+            outline: none;
+        }
+
+        .apply-form .form-group textarea {
+            resize: vertical;
+        }
+
+        .apply-form .submit-btn {
+            background-color: #2E3092;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .apply-form .submit-btn:hover {
+            background-color: #1c1f60;
+        }
+
+        .required:after {
+            content: " *";
+            color: red;
+        }
+
+        .footer {
+            background-color: #2E3092;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            clear: both;
+            margin-top: 20px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+
+        .footer a {
+            color: #f8e10e;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .social-icons {
+            margin-top: 10px;
+        }
+
+        .footer .social-icons a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .apply-form .form-group input,
+            .apply-form .form-group textarea,
+            .apply-form .form-group select {
+                padding: 8px;
+            }
+
+            .apply-form .submit-btn {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+        }
+  
